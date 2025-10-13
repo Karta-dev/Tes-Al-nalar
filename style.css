@@ -1,0 +1,157 @@
+/* RESET DASAR */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+}
+
+/* HEADER */
+.header {
+    background-color: #2c3e50; /* Biru gelap, profesional */
+    color: white;
+    padding: 40px 60px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    margin-bottom: 5px;
+    font-size: 2.5em;
+}
+
+.header .jurusan {
+    font-style: italic;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.header .kontak {
+    font-size: 0.9em;
+}
+
+.foto-profil img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Membuat foto bulat */
+    object-fit: cover;
+    border: 5px solid white;
+}
+
+/* BUTTON */
+#toggle-kontak {
+    background-color: #1abc9c; /* Hijau muda, warna TJKT/teknologi */
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#toggle-kontak:hover {
+    background-color: #16a085;
+}
+
+/* MAIN CONTAINER */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 40px 60px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* SECTION */
+.section {
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    color: #2c3e50;
+    border-bottom: 3px solid #1abc9c;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    font-size: 1.8em;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+    margin: 30px 0;
+}
+
+/* RIWAYAT/PENGALAMAN */
+.riwayat-item {
+    margin-bottom: 20px;
+}
+
+.riwayat-item h3 {
+    color: #34495e;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+}
+
+.riwayat-item .periode {
+    color: #7f8c8d;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.riwayat-item ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+/* SKILLS */
+.skills-list {
+    display: flex;
+    gap: 40px;
+}
+
+.skill-group {
+    flex: 1;
+}
+
+.skill-group h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+    border-left: 3px solid #1abc9c;
+    padding-left: 10px;
+}
+
+.skill-group ul {
+    list-style: none;
+}
+
+.skill-name {
+    font-weight: bold;
+    color: #3498db; /* Biru muda */
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #7f8c8d;
+    font-size: 0.8em;
+}
+
+/* Kontak Tersembunyi (Awalnya) */
+.kontak-hidden {
+    display: none;
+}
